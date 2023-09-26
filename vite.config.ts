@@ -11,4 +11,5 @@ export default defineConfig({
       name: "vite-plugin-svg",
     },
   ],
+  base: "/itp-landing-page/",
 });
