@@ -1,0 +1,46 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12),
+    0px 8px 16px -6px rgba(24, 39, 75, 0.08);
+  position: fixed;
+  top: -1px;
+  z-index: 99;
+  background-color: white;
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .menu {
+    margin-right: 20px;
+
+    .headerNav {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-self: flex-start;
+      gap: 20px;
+      margin: 40px 0;
+
+      .headerNavText {
+        cursor: pointer;
+
+        &:hover {
+          color: #508dff;
+          box-shadow: 0px 2px 0px -1px #508dff;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}
+.burgerIcon {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}

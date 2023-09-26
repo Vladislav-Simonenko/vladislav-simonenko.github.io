@@ -1,0 +1,212 @@
+.servicesContainer {
+  padding: 20px;
+  width: 100%;
+
+  .sericesTitle {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    font-family: "Gilroy-Bold", sans-serif;
+  }
+
+  .servicesListItem {
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+
+    .emptyBlock {
+      width: 20%;
+    }
+
+    .controllerBlock {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .disabledController {
+        width: 40px !important;
+        height: 40px !important;
+        fill: gray;
+      }
+
+      .activeController {
+        width: 40px !important;
+        height: 40px !important;
+        fill: #508dff;
+      }
+    }
+
+    .servicesListIconText {
+      font-size: 24px;
+      color: #2a2926;
+      font-family: "Gilroy-Bold", sans-serif;
+      cursor: pointer;
+
+      &:hover {
+        color: #508dff;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+
+  .servicesListContainer {
+    .servicesContentContainer {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      .servicesText {
+        width: 33%;
+        font-size: 16px;
+        line-height: 33px;
+        text-align: justify;
+        word-wrap: break-word;
+        .detailsButton {
+          display: flex;
+        }
+      }
+    }
+
+    .imageContainer {
+      height: 560px;
+      > img {
+        object-fit: cover;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .servicesContainer {
+    .servicesListContainer {
+      .imageContainer {
+        height: 470px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .servicesContainer {
+    .servicesListContainer {
+      .imageContainer {
+        height: 420px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .servicesContainer {
+    .servicesListContainer {
+      .imageContainer {
+        height: 390px;
+      }
+    }
+    .servicesListItem {
+      .servicesListIconText {
+        font-size: 18px;
+        &:hover {
+          color: #508dff;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .servicesContainer {
+    .servicesListContainer {
+      .imageContainer {
+        height: 320px;
+      }
+    }
+    .servicesListItem {
+      .controllerBlock {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        .disabledController {
+          width: 20px !important;
+          height: 20px !important;
+          fill: gray;
+        }
+
+        .activeController {
+          width: 20px !important;
+          height: 20px !important;
+          fill: #508dff;
+        }
+      }
+
+      .servicesListIconText {
+        font-size: 18px;
+        &:hover {
+          color: #508dff;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesContainer {
+    .sericesTitle {
+      font-size: 24px;
+    }
+
+    .servicesListItem {
+      .controllerBlock {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .disabledController {
+          width: 15px !important;
+          height: 15px !important;
+          fill: gray;
+        }
+
+        .activeController {
+          width: 15px !important;
+          height: 15px !important;
+          fill: #508dff;
+        }
+      }
+
+      .servicesListIconText {
+        width: 100%;
+        word-wrap: break-word;
+        font-size: 12px;
+        &:hover {
+          color: #508dff;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+
+    .servicesListContainer {
+      .servicesContentContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .servicesText {
+          word-wrap: break-word;
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+
+      .imageContainer {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}

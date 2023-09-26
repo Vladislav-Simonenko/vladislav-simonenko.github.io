@@ -1,0 +1,42 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  border: 2px solid #508dff;
+  border-top: none;
+
+  .menuBackgroundBlur {
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .menuContainerTop {
+    .menuContainerRoutes {
+      text-align: start;
+      display: flex;
+
+      .linksBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .link {
+          margin: 20px 0;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
