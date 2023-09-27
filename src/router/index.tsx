@@ -9,7 +9,7 @@ import { Footer, Header } from "../organism";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <>
         <Header />
         <Routes>
