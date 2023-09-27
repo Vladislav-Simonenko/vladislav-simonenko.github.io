@@ -19,7 +19,7 @@ export const BurgerMenu = (props: any) => {
               <p className={styles.link}>Контакты</p>
             </Link>
             <Link to={"/service"} onClick={setIsOpen}>
-              <p className={styles.link}>Сервисы</p>
+              <p className={styles.link}>Услуги</p>
             </Link>
           </div>
           <div />

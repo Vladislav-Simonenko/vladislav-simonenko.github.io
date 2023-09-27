@@ -1,5 +1,6 @@
 import React from "react";
 import { ContentContainer } from "../../molecules";
+import styles from "./Services.module.scss";
 
 export const Services = () => {
   return (

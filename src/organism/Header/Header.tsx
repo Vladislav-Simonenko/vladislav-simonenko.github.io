@@ -28,6 +28,9 @@ export const Header = () => {
             <a href="/contacts" className={styles.headerNavText}>
               Контакты
             </a>
+            <a href="/service" className={styles.headerNavText}>
+              Услуги
+            </a>
           </div>
         ) : (
           <>

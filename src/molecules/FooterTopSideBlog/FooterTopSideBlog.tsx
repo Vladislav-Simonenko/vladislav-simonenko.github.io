@@ -13,6 +13,9 @@ export const FooterTopSideBlog = () => {
         <a href="/contacts" className={styles.footerLeftSideBlogText}>
           Контакты
         </a>
+        <a href="/service" className={styles.headerNavText}>
+          Услуги
+        </a>
       </div>
 
       <div className={styles.footerRightideBlogContent}>
