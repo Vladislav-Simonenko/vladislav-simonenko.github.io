@@ -1,13 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./ContentContainer.module.scss";
 import { useResize } from "../../utils";
-import {
-  AnimatePresence,
-  easeIn,
-  easeInOut,
-  motion,
-  useAnimation,
-} from "framer-motion";
 
 interface IContentContainerProps {
   title: string;
@@ -27,19 +20,11 @@ export const ContentContainer = (props: IContentContainerProps) => {
       <div className={styles.topMainContent}>
         {img &&
           img.map((item) => (
-            <motion.img
-              animate={{
-                x: [-100, 80], // Список значений x, через которые будет проходить анимация
-                y: [-30, -20, -30], // Список значений y, через которые будет проходить анимация
-              }}
-              transition={{
-                duration: 5.0,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "easeInOut",
-              }}
+            <img
+              className={styles.topMainContentImage}
+              key={item.id}
               src={item.src}
-              alt="Animated Image"
+              alt={item.alt}
             />
           ))}
       </div>
