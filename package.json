@@ -1,7 +1,8 @@
 {
-  "name": "framermotiontestapp",
+  "name": "itp-landing-page",
+  "homepage": "https://wh1tepythons.github.io/",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
