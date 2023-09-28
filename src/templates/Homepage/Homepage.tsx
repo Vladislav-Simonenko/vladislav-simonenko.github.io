@@ -1,5 +1,5 @@
+import { MainContent } from "@organism/index";
 import React from "react";
-import { MainContent } from "../../organism";
 
 export const Homepage = () => {
   return (

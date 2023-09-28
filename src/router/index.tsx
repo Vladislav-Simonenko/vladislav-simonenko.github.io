@@ -1,11 +1,12 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+
+import { Footer, Header } from "@organism/index";
 import {
   AboutTemplate,
   ContactsTemplate,
   Homepage,
   ServicesAbout,
-} from "../templates";
-import { Footer, Header } from "../organism";
+} from "@templates/index";
 
 function Router() {
   return (

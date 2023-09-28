@@ -1,5 +1,5 @@
+import { About } from "@organism/index";
 import React from "react";
-import { About } from "../../organism";
 
 export const AboutTemplate = () => {
   return (

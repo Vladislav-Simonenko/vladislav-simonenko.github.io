@@ -1,5 +1,5 @@
+import { ContentContainer, HomepageServices } from "@molecules/index";
 import React from "react";
-import { ContentContainer, HomepageServices } from "../../molecules";
 
 export const MainContent = () => {
   return (

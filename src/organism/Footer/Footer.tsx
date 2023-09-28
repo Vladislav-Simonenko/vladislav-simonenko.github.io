@@ -1,7 +1,7 @@
 import styles from "./Footer.module.scss";
 import { Divider } from "@mui/material";
-import { FooterMainInfo } from "../../atoms";
-import { FooterTopSideBlog } from "../../molecules";
+import { FooterMainInfo } from "@atoms/index";
+import { FooterTopSideBlog } from "@molecules/index";
 
 export const Footer = () => {
   return (

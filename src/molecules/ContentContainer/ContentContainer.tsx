@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ContentContainer.module.scss";
-import { useResize } from "../../utils";
+import { useResize } from "@utils/index";
 
 interface IContentContainerProps {
   title: string;

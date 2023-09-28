@@ -1,5 +1,5 @@
+import { Contacts } from "@organism/index";
 import React from "react";
-import { Contacts } from "../../organism";
 
 export const ContactsTemplate = () => {
   return (

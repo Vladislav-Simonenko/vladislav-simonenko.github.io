@@ -12,4 +12,13 @@ export default defineConfig({
     },
   ],
   base: "/",
+  resolve: {
+    alias: {
+      "@atoms": "/src/atoms",
+      "@molecules": "/src/molecules",
+      "@organism": "/src/organism",
+      "@templates": "/src/templates",
+      "@utils": "/src/utils",
+    },
+  },
 });

@@ -1,5 +1,5 @@
+import { ContentContainer } from "@molecules/index";
 import React from "react";
-import { ContentContainer } from "../../molecules";
 
 export const Contacts = () => {
   return (

@@ -1,5 +1,5 @@
+import { Logo } from "@atoms/index";
 import styles from "./FooterTopSideBlog.module.scss";
-import { Logo } from "../../atoms";
 
 export const FooterTopSideBlog = () => {
   return (

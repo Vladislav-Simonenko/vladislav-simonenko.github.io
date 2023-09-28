@@ -1,5 +1,5 @@
+import { HomepageServices } from "@molecules/index";
 import React from "react";
-import { HomepageServices } from "../../molecules";
 
 export const About = () => {
   return (

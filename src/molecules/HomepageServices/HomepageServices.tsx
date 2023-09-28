@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import styles from "./HomepageServices.module.scss";
-import { HomepageButton } from "../../atoms";
+import { HomepageButton } from "@atoms/index";
 
 interface IHomePageProps {
   data: {

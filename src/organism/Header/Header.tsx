@@ -1,9 +1,9 @@
 import styles from "./Header.module.scss";
 import { Sling as Hamburger } from "hamburger-react";
-import { Logo } from "../../atoms";
-import { useResize } from "../../utils";
 import { useState } from "react";
-import { BurgerMenu } from "../../molecules";
+import { Logo } from "@atoms/index";
+import { BurgerMenu } from "@molecules/index";
+import { useResize } from "@utils/index";
 
 export const Header = () => {
   const { isScreenLg } = useResize();
