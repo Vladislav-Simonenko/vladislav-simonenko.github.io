@@ -15,7 +15,7 @@ export const FooterMainInfo = (props: IFooterInterface) => {
       </div>
       <div className={styles.footerBottomMainInfo}>
         <p className={styles.footerMainText}>
-          Компания ООО ИТ ПРЕМИУМ
+          Компания ООО ИТ ПРЕМИУМ{" "}
           <span>
             адрес: Ростовская обл., г. Таганрог, ул. Октябрьская, д. 18 каб. 21
             зарегистрирована 20.08.2018.

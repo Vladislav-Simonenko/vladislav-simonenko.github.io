@@ -10,8 +10,9 @@ export const Logo = (props: ILogoProps) => {
 
   return (
     <div className={styles.logo}>
-      <Link to={"/"}>
+      <Link to={"/"} className={styles.logoImageContainer}>
         <img
+          className={styles.logoImage}
           src={isFooter ? "/logo_desktop_no_words.svg" : "/logo_desktop.svg"}
           alt="logo"
         />

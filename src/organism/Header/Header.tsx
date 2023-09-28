@@ -25,11 +25,11 @@ export const Header = () => {
             <a href="/about" className={styles.headerNavText}>
               О компании
             </a>
-            <a href="/contacts" className={styles.headerNavText}>
-              Контакты
-            </a>
             <a href="/service" className={styles.headerNavText}>
               Услуги
+            </a>
+            <a href="/contacts" className={styles.headerNavText}>
+              Контакты
             </a>
           </div>
         ) : (

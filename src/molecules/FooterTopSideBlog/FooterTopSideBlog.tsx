@@ -5,16 +5,15 @@ export const FooterTopSideBlog = () => {
   return (
     <div className={styles.footerLeftSideBlog}>
       <Logo isFooter={true} />
-
       <div className={styles.footerLeftSideBlogContent}>
         <a href="/about" className={styles.footerLeftSideBlogText}>
           О компании
         </a>
-        <a href="/contacts" className={styles.footerLeftSideBlogText}>
-          Контакты
-        </a>
         <a href="/service" className={styles.headerNavText}>
           Услуги
+        </a>
+        <a href="/contacts" className={styles.footerLeftSideBlogText}>
+          Контакты
         </a>
       </div>
 
