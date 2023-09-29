@@ -28,7 +28,6 @@ export const ContentContainer = (props: IContentContainerProps) => {
             />
           ))}
       </div>
-
       <div className={styles.topMainTextContainer}>
         <span className={styles.topMainTitleText}>{title}</span>
         <p className={styles.topMainDescriptionText}>{description}</p>

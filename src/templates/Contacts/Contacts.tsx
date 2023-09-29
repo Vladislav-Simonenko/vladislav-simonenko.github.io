@@ -1,10 +1,14 @@
 import { Contacts } from "@organism/index";
-import React from "react";
+import { motion } from "framer-motion";
 
 export const ContactsTemplate = () => {
   return (
-    <React.Fragment>
+    <motion.div
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+    >
       <Contacts />
-    </React.Fragment>
+    </motion.div>
   );
 };
