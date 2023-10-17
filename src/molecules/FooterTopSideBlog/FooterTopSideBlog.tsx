@@ -27,7 +27,7 @@ export const FooterTopSideBlog = () => {
         <p className={styles.footerTopSideBlogMainText}>
           Написать нам
           <span className={styles.footerTopSideBlogInsideText}>
-            <a href="mailto:itp-it@gmail.com">itp-it@gmail.com</a>
+            <a href="mailto:info@itp-it.com">info@itp-it.com</a>
           </span>
         </p>
       </div>
