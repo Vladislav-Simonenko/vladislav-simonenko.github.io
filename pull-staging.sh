@@ -1,5 +1,5 @@
 # ~/projects/front
-cd ~/projects/zernovoz-2022-front
+cd ~/projects/vladislav-simonenko.github.io
 
 WORKING_DIR=dist
 if [ -d "$WORKING_DIR" ]; then rm -vRf $WORKING_DIR; fi
