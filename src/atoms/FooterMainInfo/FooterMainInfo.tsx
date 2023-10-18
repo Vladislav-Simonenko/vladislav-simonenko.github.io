@@ -10,7 +10,7 @@ export const FooterMainInfo = (props: IFooterInterface) => {
   return (
     <div className={styles.footerMainInfo}>
       <div className={styles.footerTopMainInfo}>
-        <a href="https://reestr.digital.gov.ru/reestr/1864621/">
+        <a target="_blank" href="https://reestr.digital.gov.ru/reestr/1864621/">
           <p className={styles.footerMainText}>
             {reestrInfo}
             <a href="/reestr.pdf" target="_blank">
