@@ -53,6 +53,9 @@ export const BurgerMenu = (props: any) => {
                 <Link to={"/service"} onClick={handleCloseMenu}>
                   <p className={styles.link}>Услуги</p>
                 </Link>
+                {/* <Link to={"/products"} className={styles.headerNavText}>
+                  <p className={styles.link}>Наши продукты</p>
+                </Link> */}
               </div>
               <div />
               <div />

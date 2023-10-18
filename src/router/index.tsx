@@ -1,6 +1,5 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-
-import { Footer, Header } from "@organism/index";
+import { Footer, Header, Landing } from "@organism/index";
 import {
   AboutTemplate,
   ContactsTemplate,
@@ -14,10 +13,12 @@ function Router() {
       <>
         <Header />
         <Routes>
+          <Route path="/docs" element={<Landing />} />
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<AboutTemplate />} />
           <Route path="/service" element={<ServicesAbout />} />
           <Route path="/contacts" element={<ContactsTemplate />} />
+          {/* <Route path="/products" element={<ContactsTemplate />} /> */}
         </Routes>
         <Footer />
       </>
