@@ -13,7 +13,6 @@ export const Footer = () => {
   );
 };
 
-const footerReestr =
-  "Участники Реестра Российского ПО: Lorem ipsum dolor sit amet consectetur";
+const footerReestr = "Участники Реестра Российского ПО";
 
-const footerPolicy = "Политика по работе с контагентами";
+const footerPolicy = "";

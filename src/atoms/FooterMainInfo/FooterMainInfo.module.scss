@@ -13,6 +13,12 @@
 
   .footerMainText {
     cursor: pointer;
+    > a {
+      &:hover {
+        color: blue;
+        transition: 0.3s ease-in-out;
+      }
+    }
     &:hover {
       color: #508dff;
       transition: 0.3s ease-in-out;
