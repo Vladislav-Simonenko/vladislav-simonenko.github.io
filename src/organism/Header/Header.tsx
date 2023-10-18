@@ -4,17 +4,18 @@ import { useState } from "react";
 import { Logo } from "@atoms/index";
 import { BurgerMenu } from "@molecules/index";
 import { useResize } from "@utils/index";
+import { useLocation } from "react-router-dom";
 
 export const Header = () => {
   const { isScreenLg } = useResize();
-
+  const { pathname } = useLocation();
   const [open, setIsOpen] = useState(false);
 
   const burgerState = () => {
     setIsOpen(!open);
   };
 
-  return (
+  return pathname !== "/docs" ? (
     <div className={styles.headerContainer}>
       <div className={styles.logo}>
         <Logo />
@@ -31,6 +32,9 @@ export const Header = () => {
             <a href="/contacts" className={styles.headerNavText}>
               Контакты
             </a>
+            {/* <a href="/products" className={styles.headerNavText}>
+              Наши продукты
+            </a> */}
           </div>
         ) : (
           <>
@@ -42,5 +46,5 @@ export const Header = () => {
         )}
       </div>
     </div>
-  );
+  ) : null;
 };
