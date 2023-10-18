@@ -1,16 +1,18 @@
 {
   "name": "itp-landing-page",
+  "homepage": "https://vladislav-simonenko.github.io",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite --host 0.0.0.0 --port 8080"
+    "start": "vite --host 185.182.111.87
+ --port 81"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
