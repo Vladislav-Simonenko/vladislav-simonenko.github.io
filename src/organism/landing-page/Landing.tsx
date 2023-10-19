@@ -1,4 +1,3 @@
-import React from "react";
 import "./bootstrap.css";
 import styles from "./Landing.module.scss";
 

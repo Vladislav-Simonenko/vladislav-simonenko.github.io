@@ -47,7 +47,7 @@ const servicesName = [
 const img = [
   {
     id: 1,
-    src: "/cases_1.svg",
+    src: "/cases_1-min.svg",
     alt: "about us",
   },
 ];
@@ -68,7 +68,7 @@ const servicesNameSecond = [
 const imgSecond = [
   {
     id: 1,
-    src: "/cases_2.svg",
+    src: "/cases_2-min.svg",
     alt: "about us",
   },
 ];
@@ -91,7 +91,7 @@ const servicesNameThird = [
 const imgThird = [
   {
     id: 1,
-    src: "/cases_3.svg",
+    src: "/cases_3-min.svg",
     alt: "about us",
   },
 ];
@@ -114,7 +114,7 @@ const servicesNameFourth = [
 const imgFourth = [
   {
     id: 1,
-    src: "/cases_4.svg",
+    src: "/cases_4-min.svg",
     alt: "about us",
   },
 ];
