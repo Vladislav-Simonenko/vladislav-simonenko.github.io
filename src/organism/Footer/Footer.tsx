@@ -16,6 +16,6 @@ export const Footer = () => {
   ) : null;
 };
 
-const footerReestr = "Участники Реестра Российского ПО";
+const footerReestr = "Участники Российского ПО:";
 
 const footerPolicy = "";
