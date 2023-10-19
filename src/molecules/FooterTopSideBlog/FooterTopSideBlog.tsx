@@ -9,7 +9,7 @@ export const FooterTopSideBlog = () => {
         <a href="/about" className={styles.footerLeftSideBlogText}>
           О компании
         </a>
-        <a href="/service" className={styles.headerNavText}>
+        <a href="/service" className={styles.footerLeftSideBlogText}>
           Услуги
         </a>
         <a href="/contacts" className={styles.footerLeftSideBlogText}>
@@ -20,14 +20,24 @@ export const FooterTopSideBlog = () => {
       <div className={styles.footerRightideBlogContent}>
         <p className={styles.footerTopSideBlogMainText}>
           Таганрог
-          <span className={styles.footerTopSideBlogInsideText}>
-            <a href="tel:+79885386799">+7(988)538-67-99</a>
+          <span>
+            <a
+              className={styles.footerTopSideBlogInsideText}
+              href="tel:+79885386799"
+            >
+              +7(988)538-67-99
+            </a>
           </span>
         </p>
         <p className={styles.footerTopSideBlogMainText}>
           Написать нам
-          <span className={styles.footerTopSideBlogInsideText}>
-            <a href="mailto:info@itp-it.com">info@itp-it.com</a>
+          <span>
+            <a
+              className={styles.footerTopSideBlogInsideText}
+              href="mailto:info@itp-it.com"
+            >
+              info@itp-it.com
+            </a>
           </span>
         </p>
       </div>
