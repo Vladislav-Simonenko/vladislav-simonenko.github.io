@@ -8,13 +8,14 @@
 
   .footerTopMainInfo {
     display: flex;
-    gap: 40px;
+    gap: 5px;
   }
 
   .footerMainText {
-    cursor: pointer;
+    box-shadow: 0px 1px 0px 0px rgba(38, 132, 204, 1);
 
     &:hover {
+      box-shadow: 0px 1px 0px 0px blue;
       color: #508dff;
       transition: 0.3s ease-in-out;
     }
