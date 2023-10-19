@@ -1,4 +1,3 @@
-
 import "./bootstrap.css";
 import styles from "./Landing.module.scss";
 

@@ -27,7 +27,7 @@ const servicesName = [
 const img = [
   {
     id: 1,
-    src: "/full_metal_bird.svg",
+    src: "/full_metal_bird-min.svg",
     alt: "about us",
   },
 ];
