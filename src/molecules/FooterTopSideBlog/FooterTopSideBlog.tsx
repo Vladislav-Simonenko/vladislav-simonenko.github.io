@@ -21,7 +21,7 @@ export const FooterTopSideBlog = () => {
         <p className={styles.footerTopSideBlogMainText}>
           Таганрог
           <span className={styles.footerTopSideBlogInsideText}>
-            <a href="tel:+79885386799">+7(988)538-67-99</a>
+            <a href="tel:+79885441421">+7(988)544-14-21</a>
           </span>
         </p>
         <p className={styles.footerTopSideBlogMainText}>
