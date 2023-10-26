@@ -12,6 +12,12 @@ export const FooterTopSideBlog = () => {
         <a href="/service" className={styles.footerLeftSideBlogText}>
           Услуги
         </a>
+        <a href="/advantages" className={styles.footerLeftSideBlogText}>
+          Преимущества
+        </a>
+        <a href="/technology" className={styles.footerLeftSideBlogText}>
+          Технологии
+        </a>
         <a href="/contacts" className={styles.footerLeftSideBlogText}>
           Контакты
         </a>

@@ -5,3 +5,4 @@ export * from "./Contacts";
 export * from "./Services";
 export * from "./About";
 export * from "./landing-page";
+export * from "./TechnologyContent";

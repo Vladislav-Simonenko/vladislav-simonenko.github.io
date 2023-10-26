@@ -28,6 +28,36 @@ export const Services = () => {
         servicesName={servicesNameFourth}
         img={imgFourth}
       />
+      <ContentContainer
+        title={titleEight}
+        description={descriptionEight}
+        servicesName={servicesNameEight}
+        img={img}
+      />
+      <ContentContainer
+        title={titleSeven}
+        description={descriptionSeven}
+        servicesName={servicesNameSeven}
+        img={imgThird}
+      />
+      <ContentContainer
+        title={titleNine}
+        description={descriptionNine}
+        servicesName={servicesNameNine}
+        img={imgSecond}
+      />
+      <ContentContainer
+        title={titleTen}
+        description={descriptionTen}
+        servicesName={servicesNameTen}
+        img={imgThird}
+      />
+      <ContentContainer
+        title={titleEleven}
+        description={descriptionEleven}
+        servicesName={servicesNameEleven}
+        img={imgFourth}
+      />
     </React.Fragment>
   );
 };
@@ -117,4 +147,58 @@ const imgFourth = [
     src: "/cases_4-min.svg",
     alt: "about us",
   },
+];
+
+// ---------------------------------
+
+const titleSeven = "Модернизация существующих технологий";
+
+const descriptionSeven =
+  "Многие программные решения используют старый стек технологий и не позволяют вашему бизнесу эффективно масштабироваться и расти. Мы обновляем программное обеспечение, чтобы сократить ненужные расходы и бремя обслуживания. Это помогает предприятиям добиться лучшей масштабируемости, снизить эксплуатационные расходы, оптимизировать производительность и обеспечить цифровой опыт.";
+const servicesNameSeven = [
+  { id: 1, title: "Обновление технологий" },
+  { id: 2, title: "Масштабирование" },
+  { id: 3, title: "Повышение производительности" },
+  { id: 4, title: "Цифровой опыт" },
+];
+
+// ---------------------------------
+
+const titleEight = `"Пожарная команда"`;
+
+const descriptionEight =
+  "Привлекаем кризис-менеджера для оценки ситуации и составления плана действий. Мы оперативно проводим адаптацию лучших разработчиков и QA для решения сложностей проекта с доступностью 24/7. Популярным сценарием является экстренное изменение команды клиента. Наша цель - понять текущую IT экосистему, взять под контроль продукт, процессы и восстановить сервис.";
+const servicesNameEight = [
+  { id: 1, title: "Оценки ситуации" },
+  { id: 2, title: "Составление плана действий" },
+];
+
+// ---------------------------------
+
+const titleNine = "«Закодируйте» свой бизнес";
+
+const descriptionNine =
+  "«Закодируйте» свой бизнес Помогаем оцифровывать бизнес, сосредотачиваясь на бизнес-задачах, потребностях, болевых точках клиента и предоставляем программные решения, ориентированные на бизнес-цели. Мы формируем тесное и прозрачное сотрудничество между IT командой и бизнесом, чтобы клиенты активно участвовали в жизненном цикле разработки проекта.";
+const servicesNameNine = [
+  { id: 1, title: "Оцифровка бизнеса" },
+  { id: 2, title: "Сотрудничество" },
+];
+
+// ---------------------------------
+
+const titleTen = "IT аудит и консалтинг";
+
+const descriptionTen =
+  "Наши специалисты проконсультируют по всем вопросам и проведут аудит уже существующих решений";
+const servicesNameTen = [{ id: 1, title: "Консультация" }];
+
+// ---------------------------------
+
+const titleEleven = "Каталог проектов";
+
+const descriptionEleven =
+  "Предоставим вам пакеты услуг с фиксированной ценой на разработку версий MVP или РоС, постоянную поддержку и дизайн.";
+const servicesNameEleven = [
+  { id: 1, title: "MVP" },
+  { id: 1, title: "PoC" },
 ];

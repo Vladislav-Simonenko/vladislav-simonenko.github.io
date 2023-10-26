@@ -36,13 +36,17 @@ export const ContentContainer = (props: IContentContainerProps) => {
             <p className={styles.contactText}>
               Телефон:
               <span>
-                <a href="tel:+79885386799">+7(988)538-67-99</a>
+                <a className={styles.contactInfo} href="tel:+79885386799">
+                  +7(988)538-67-99
+                </a>
               </span>
             </p>
             <p className={styles.contactText}>
               E-mail:
               <span>
-                <a href="mailto:info@itp-it.com">info@itp-it.com</a>
+                <a className={styles.contactInfo} href="mailto:info@itp-it.com">
+                  info@itp-it.com
+                </a>
               </span>
             </p>
           </div>
