@@ -36,7 +36,7 @@ export const ContentContainer = (props: IContentContainerProps) => {
             <p className={styles.contactText}>
               Телефон:
               <span>
-                <a href="tel:+79885386799">+7(988)538-67-99</a>
+                <a href="tel:+79885441421">+7(988)544-14-21</a>
               </span>
             </p>
             <p className={styles.contactText}>
