@@ -57,7 +57,9 @@ export const ContentContainer = (props: IContentContainerProps) => {
                   {!isScreenLg ? <span> | </span> : null} {item.title}
                   {isScreenLg && servicesName.length <= 3 ? (
                     <span> | </span>
-                  ) : null}
+                  ) : (
+                    <span> | </span>
+                  )}
                 </p>
               ))}
           </React.Fragment>

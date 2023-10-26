@@ -26,8 +26,13 @@ export const FooterTopSideBlog = () => {
       <div className={styles.footerRightideBlogContent}>
         <p className={styles.footerTopSideBlogMainText}>
           Таганрог
-          <span className={styles.footerTopSideBlogInsideText}>
-            <a href="tel:+79885441421">+7(988)544-14-21</a>
+          <span>
+            <a
+              className={styles.footerTopSideBlogInsideText}
+              href="tel:+79885441421"
+            >
+              +7(988)544-14-21
+            </a>
           </span>
         </p>
         <p className={styles.footerTopSideBlogMainText}>
