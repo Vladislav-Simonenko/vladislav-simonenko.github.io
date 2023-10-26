@@ -9,8 +9,14 @@ export const FooterTopSideBlog = () => {
         <a href="/about" className={styles.footerLeftSideBlogText}>
           О компании
         </a>
-        <a href="/service" className={styles.headerNavText}>
+        <a href="/service" className={styles.footerLeftSideBlogText}>
           Услуги
+        </a>
+        <a href="/advantages" className={styles.footerLeftSideBlogText}>
+          Преимущества
+        </a>
+        <a href="/technology" className={styles.footerLeftSideBlogText}>
+          Технологии
         </a>
         <a href="/contacts" className={styles.footerLeftSideBlogText}>
           Контакты
@@ -26,8 +32,13 @@ export const FooterTopSideBlog = () => {
         </p>
         <p className={styles.footerTopSideBlogMainText}>
           Написать нам
-          <span className={styles.footerTopSideBlogInsideText}>
-            <a href="mailto:info@itp-it.com">info@itp-it.com</a>
+          <span>
+            <a
+              className={styles.footerTopSideBlogInsideText}
+              href="mailto:info@itp-it.com"
+            >
+              info@itp-it.com
+            </a>
           </span>
         </p>
       </div>

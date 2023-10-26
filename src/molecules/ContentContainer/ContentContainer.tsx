@@ -42,7 +42,9 @@ export const ContentContainer = (props: IContentContainerProps) => {
             <p className={styles.contactText}>
               E-mail:
               <span>
-                <a href="mailto:info@itp-it.com">info@itp-it.com</a>
+                <a className={styles.contactInfo} href="mailto:info@itp-it.com">
+                  info@itp-it.com
+                </a>
               </span>
             </p>
           </div>

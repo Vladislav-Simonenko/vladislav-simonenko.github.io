@@ -29,6 +29,12 @@ export const Header = () => {
             <a href="/service" className={styles.headerNavText}>
               Услуги
             </a>
+            <a href="/advantages" className={styles.headerNavText}>
+              Преимущества
+            </a>
+            <a href="/technology" className={styles.headerNavText}>
+              Технологии
+            </a>
             <a href="/contacts" className={styles.headerNavText}>
               Контакты
             </a>

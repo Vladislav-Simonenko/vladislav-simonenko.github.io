@@ -209,3 +209,13 @@
     }
   }
 }
+.descriptiontext {
+  color: black;
+  font-size: 14px;
+  padding-right: 14px;
+
+  > span {
+    padding: 0 10px;
+    color: #508dff;
+  }
+}

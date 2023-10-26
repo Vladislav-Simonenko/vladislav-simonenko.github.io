@@ -9,22 +9,27 @@ import {
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import styles from "./HomepageServices.module.scss";
 import { HomepageButton } from "@atoms/index";
+import { useResize } from "@utils/hooks";
+import React from "react";
 
 interface IHomePageProps {
+  disabled?: boolean;
   data: {
     id: number;
     label: string;
     description: string;
     src: string;
+    servicesName?: any;
   }[];
   title: string;
   about?: boolean;
 }
 
 export const HomepageServices = (props: IHomePageProps) => {
-  const { data, title, about } = props;
+  const { data, title, about, disabled } = props;
 
   const [openIndex, setOpenIndex] = useState(0);
+  const { isScreenLg } = useResize();
 
   const handleItemClick = (index: number) => {
     if (openIndex === index) {
@@ -74,11 +79,26 @@ export const HomepageServices = (props: IHomePageProps) => {
                     <img className={styles.imageContainer} src={item.src} />
                     <p className={styles.servicesText}>
                       {item.description}
-                      {!about ? (
+                      {!about && !disabled ? (
                         <span className={styles.detailsButton}>
                           <HomepageButton src={"/service"} text={`Подробнее`} />
                         </span>
                       ) : null}
+                      {disabled && (
+                        <React.Fragment>
+                          {item.servicesName &&
+                            item.servicesName.map((item: any) => (
+                              <p
+                                key={item.id}
+                                className={styles.descriptiontext}
+                              >
+                                {!isScreenLg ? <span> | </span> : null}{" "}
+                                {item.title}
+                                {isScreenLg ? <span> | </span> : null}
+                              </p>
+                            ))}
+                        </React.Fragment>
+                      )}
                     </p>
                   </div>
                 </List>
