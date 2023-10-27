@@ -108,10 +108,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .topMainTextContainer {
+      align-self: flex-start;
       .topMainDescriptionText {
         font-size: 160x;
-        line-height: 24pxpx;
+        line-height: 24px;
       }
       .topMainTitleText {
         font-size: 34px;
