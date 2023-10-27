@@ -13,13 +13,13 @@ import { Technology } from "@templates/Technology";
 import { useResize } from "@utils/hooks";
 
 function Router() {
-  const { isScreenLg } = useResize();
+  const { isScreenXxl } = useResize();
 
   return (
     <BrowserRouter basename="/">
       <>
         <Header />
-        <div style={isScreenLg ? stylesContainer : stylesContainer2}>
+        <div style={isScreenXxl ? stylesContainer : stylesContainer2}>
           <Routes>
             <Route path="/docs" element={<Landing />} />
             <Route path="/" element={<Homepage />} />
@@ -47,6 +47,6 @@ const stylesContainer = {
 };
 
 const stylesContainer2 = {
-  margin: "100px 10px 0 10px",
+  margin: "100px 50px 0 10px",
   flex: "1 1 auto",
 };

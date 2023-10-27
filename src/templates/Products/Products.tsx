@@ -20,7 +20,7 @@ const description =
 const img = [
   {
     id: 1,
-    src: "public/zernovoz1.png",
+    src: "/zernovoz1.png",
     alt: "about us",
   },
 ];
