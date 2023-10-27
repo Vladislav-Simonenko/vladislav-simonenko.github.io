@@ -8,6 +8,7 @@ export const Products = () => {
       img={img}
       about={false}
       isZernovoz={true}
+      isMain={true}
     />
   );
 };

@@ -12,6 +12,7 @@ export const Landing = () => {
           <div className="row">
             <div className="col-12 d-flex flex-row align-items-center justify-content-between">
               <div className="heading-brand">Zernovoz</div>
+
               <a
                 href="https://crm.agrotradecrm.ru/login"
                 className="btn btn-dark"
