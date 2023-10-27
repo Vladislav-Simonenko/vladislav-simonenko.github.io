@@ -64,9 +64,15 @@ export const BurgerMenu = (props: any) => {
                 >
                   Технологии
                 </Link>
+                <Link to={"/products"} onClick={handleCloseMenu}>
+                  <p className={styles.link}>Продукты</p>
+                </Link>{" "}
+                <Link to={"/portfolio"} onClick={handleCloseMenu}>
+                  <p className={styles.link}>Портфолио</p>
+                </Link>
                 <Link to={"/contacts"} onClick={handleCloseMenu}>
                   <p className={styles.link}>Контакты</p>
-                </Link>
+                </Link>{" "}
                 {/* <Link to={"/products"} className={styles.headerNavText}>
                   <p className={styles.link}>Наши продукты</p>
                 </Link> */}

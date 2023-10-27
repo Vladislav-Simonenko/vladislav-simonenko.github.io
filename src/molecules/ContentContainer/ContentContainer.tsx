@@ -1,17 +1,21 @@
 import React from "react";
 import styles from "./ContentContainer.module.scss";
 import { useResize } from "@utils/index";
+import { HomepageButton } from "@atoms/HomepageButton";
 
 interface IContentContainerProps {
   title: string;
   description: string;
-  servicesName: { id: number; title: string }[];
+  servicesName?: { id: number; title: string }[];
   img: { id: number; src: string; alt: string }[];
   about?: boolean;
+  isZernovoz?: boolean;
+  isMain?: boolean;
 }
 
 export const ContentContainer = (props: IContentContainerProps) => {
-  const { title, description, servicesName, img, about } = props;
+  const { title, description, servicesName, img, about, isZernovoz, isMain } =
+    props;
 
   const { isScreenLg } = useResize();
 
@@ -21,7 +25,11 @@ export const ContentContainer = (props: IContentContainerProps) => {
         {img &&
           img.map((item) => (
             <img
-              className={styles.topMainContentImage}
+              className={
+                isMain
+                  ? styles.topMainContentImageMain
+                  : styles.topMainContentImage
+              }
               key={item.id}
               src={item.src}
               alt={item.alt}
@@ -63,6 +71,9 @@ export const ContentContainer = (props: IContentContainerProps) => {
                 </p>
               ))}
           </React.Fragment>
+          {isZernovoz ? (
+            <HomepageButton src={"/docs"} text={`Подробнее`} />
+          ) : null}
         </div>
       </div>
     </div>

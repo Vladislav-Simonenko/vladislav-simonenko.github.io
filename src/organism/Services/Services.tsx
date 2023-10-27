@@ -9,54 +9,63 @@ export const Services = () => {
         description={description}
         servicesName={servicesName}
         img={img}
+        isMain={true}
       />
       <ContentContainer
         title={titleSecond}
         description={descriptionSecond}
         servicesName={servicesNameSecond}
         img={imgSecond}
+        isMain={true}
       />
       <ContentContainer
         title={titleThird}
         description={descriptionThird}
         servicesName={servicesNameThird}
         img={imgThird}
+        isMain={true}
       />
       <ContentContainer
         title={titleFourth}
         description={descriptionFourth}
         servicesName={servicesNameFourth}
         img={imgFourth}
+        isMain={true}
       />
       <ContentContainer
         title={titleEight}
         description={descriptionEight}
         servicesName={servicesNameEight}
         img={img}
+        isMain={true}
       />
       <ContentContainer
         title={titleSeven}
         description={descriptionSeven}
         servicesName={servicesNameSeven}
         img={imgThird}
+        isMain={true}
       />
       <ContentContainer
         title={titleNine}
         description={descriptionNine}
         servicesName={servicesNameNine}
         img={imgSecond}
+        isMain={true}
       />
       <ContentContainer
         title={titleTen}
         description={descriptionTen}
         servicesName={servicesNameTen}
         img={imgThird}
+        isMain={true}
       />
       <ContentContainer
         title={titleEleven}
         description={descriptionEleven}
         servicesName={servicesNameEleven}
         img={imgFourth}
+        isMain={true}
       />
     </React.Fragment>
   );

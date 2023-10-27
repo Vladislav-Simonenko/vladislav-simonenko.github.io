@@ -10,6 +10,7 @@ export const Contacts = () => {
         servicesName={servicesName}
         img={img}
         about={true}
+        isMain={true}
       />
     </React.Fragment>
   );

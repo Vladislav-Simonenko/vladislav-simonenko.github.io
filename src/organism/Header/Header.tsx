@@ -35,6 +35,13 @@ export const Header = () => {
             <a href="/technology" className={styles.headerNavText}>
               Технологии
             </a>
+
+            <a href="/products" className={styles.headerNavText}>
+              Продукты
+            </a>
+            <a href="/portfolio" className={styles.headerNavText}>
+              Портфолио
+            </a>
             <a href="/contacts" className={styles.headerNavText}>
               Контакты
             </a>
