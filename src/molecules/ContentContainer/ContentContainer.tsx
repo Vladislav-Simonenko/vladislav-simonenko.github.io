@@ -11,11 +11,24 @@ interface IContentContainerProps {
   about?: boolean;
   isZernovoz?: boolean;
   isMain?: boolean;
+  isConsBussiness?: boolean;
+  isUQREW?: boolean;
+  isBloob?: boolean;
 }
 
 export const ContentContainer = (props: IContentContainerProps) => {
-  const { title, description, servicesName, img, about, isZernovoz, isMain } =
-    props;
+  const {
+    title,
+    description,
+    servicesName,
+    img,
+    about,
+    isZernovoz,
+    isMain,
+    isConsBussiness,
+    isUQREW,
+    isBloob,
+  } = props;
 
   const { isScreenLg } = useResize();
 
@@ -73,6 +86,15 @@ export const ContentContainer = (props: IContentContainerProps) => {
           </React.Fragment>
           {isZernovoz ? (
             <HomepageButton src={"/docs"} text={`Подробнее`} />
+          ) : null}
+          {isConsBussiness ? (
+            <HomepageButton src={"/case_crm"} text={`Подробнее`} />
+          ) : null}
+          {isUQREW ? (
+            <HomepageButton src={"/case_uqrew"} text={`Подробнее`} />
+          ) : null}
+          {isBloob ? (
+            <HomepageButton src={"/case_bloom"} text={`Подробнее`} />
           ) : null}
         </div>
       </div>

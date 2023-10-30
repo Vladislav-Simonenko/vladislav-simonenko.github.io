@@ -9,12 +9,14 @@ export const Portfolio = () => {
         img={img}
         about={false}
         isMain={true}
+        isConsBussiness
       />
       <ContentContainer
         title={title2}
         description={description2}
         img={img2}
         about={false}
+        isUQREW
         isMain={true}
       />
       <ContentContainer
@@ -22,6 +24,7 @@ export const Portfolio = () => {
         description={description3}
         img={img3}
         about={false}
+        isBloob
         isMain={true}
       />
     </>

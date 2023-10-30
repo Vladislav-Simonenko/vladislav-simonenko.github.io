@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { Footer, Header, Landing } from "@organism/index";
+import { Cases, Footer, Header, Landing } from "@organism/index";
 import {
   AboutTemplate,
   Advantages,
@@ -30,6 +30,13 @@ function Router() {
             <Route path="/technology" element={<Technology />} />
             <Route path="/products" element={<Products />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route
+              path="/case_crm"
+              element={<Cases isConsBussiness={true} />}
+            />
+            <Route path="/case_bloom" element={<Cases isBloob={true} />} />
+            <Route path="/case_uqrew" element={<Cases isUQREW={true} />} />
+
             {/* <Route path="/products" element={<ContactsTemplate />} /> */}
           </Routes>
         </div>
